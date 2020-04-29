@@ -1,6 +1,10 @@
 {
-  "login": {
-    "user": "user",
+  "success": {
+    "user": "john",
     "ok": true
+  },
+  "failure": {
+    "user": null,
+    "ok": false
   }
 }
