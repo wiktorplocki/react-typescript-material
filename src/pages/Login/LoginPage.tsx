@@ -3,7 +3,12 @@ import styled from "styled-components";
 import { Button, Card, TextField } from "@material-ui/core";
 import { FullScreenLayout } from "./components/FullScreenLayout";
 import { LoginInfoBox } from "./components/LoginInfoBox";
-import { InputEvent } from "./LoginPage.types";
+
+interface InputEvent {
+  target: {
+    value: string;
+  };
+}
 
 const StyledCard = styled(Card)`
   display: flex;
